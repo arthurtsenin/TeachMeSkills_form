@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href=".//css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<title>Form</title>
+</head>
+<body>
+	<form action="#" class="form">
+		<main class="form__body">
+			<section class="form__container">
+				<section class="way">
+					<h2>Способ получения</h2>
+					<section class="town">
+						<input tabindex="1" placeholder="Город"type="text">
+					</section>
+					<section class="post">
+						<select name="post" id="" class="post__b">
+							<option placeholder="Почта России" value="russia">Почта России</option>
+							<option value="sdec">СДЭК</option>
+						</select>
+					</section>
+					<section class="adress">
+						<input placeholder="Улица" type="text" class="street">
+						<input placeholder="Дом" type="text" class="house">
+						<input placeholder="Квартира" type="text" class="flat">
+						<input placeholder="Индекс" type="text" class="index">
+					</section>
+					<textarea placeholder="Добавить комментарий" name="coment" class="coment"></textarea>
+				</section>
+				<section class="info">
+					<h2>Данные получателя</h2>
+					<section class="info__name">
+						<input placeholder="Фамилия" class="surname" type="text">
+						<input placeholder="Имя" class="name" type="text">
+						<input placeholder="	Отчество" class="patronymic" type="text">
+					</section>
+						<input placeholder="Номер телефона" type="tel" class="tel">
+						<h3>По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</h3>
+						<input placeholder="E-mail" type="email" class="email">
+						<h3>На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</h3>
+						<section class="checkbox">
+							<span class="chech"></span>
+							<input checked type="checkbox" class="checkbox__input" id="1">
+							<label for="1" class="checkbox__label">Подписаться на рассылку новинок и акций</label>
+						</section>
+				</section>
+				<section class="pay">
+					<h2>Способ оплаты</h2>
+					<section class="radio__body">
+						<input name="radio" type="radio" class="radio__input" id="radio">
+						<label class="radio__label" for="radio">Оплата при получении наличными или картой</label>
+						<input checked name="radio" type="radio" class="radio__input" id="radio2">
+						<label checked class="radio__label" for="radio2">Оплата банковской картой онлайн</label>
+					</section>
+				</section>
+			</section>
+		</main>
+	</form>
+</body>
+</html>
